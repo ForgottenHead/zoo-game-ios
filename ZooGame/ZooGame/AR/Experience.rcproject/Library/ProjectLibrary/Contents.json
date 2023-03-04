@@ -1,0 +1,17 @@
+[
+  {
+    "libraryIdentifier" : "39d45668e738263b8463ccdd8686b0f0",
+    "format" : "model",
+    "displayName" : "kangaroo_3d.usdz"
+  },
+  {
+    "libraryIdentifier" : "fa2f7103dffbc2516b3d1b0a03105508",
+    "format" : "model",
+    "displayName" : "meerkat_3d.usdz"
+  },
+  {
+    "libraryIdentifier" : "fd41fe62ec4b49a167b9abf12f748970",
+    "format" : "model",
+    "displayName" : "red_panda_3d.usdz"
+  }
+]

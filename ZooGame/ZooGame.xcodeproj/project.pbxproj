@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108AAF4296D7B7100CD833D /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0108AAF3296D7B7100CD833D /* CodeScanner */; };
+		0108AAF7296D885500CD833D /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 0108AAF6296D885500CD833D /* SlideOverCard */; };
+		011F9E652968673B0019214A /* ZooGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F9E642968673B0019214A /* ZooGameApp.swift */; };
+		011F9E692968673C0019214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011F9E682968673C0019214A /* Assets.xcassets */; };
+		011F9E6C2968673C0019214A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011F9E6B2968673C0019214A /* Preview Assets.xcassets */; };
+		011F9E762968673C0019214A /* ZooGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F9E752968673C0019214A /* ZooGameTests.swift */; };
+		011F9E802968673C0019214A /* ZooGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F9E7F2968673C0019214A /* ZooGameUITests.swift */; };
+		011F9E822968673C0019214A /* ZooGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F9E812968673C0019214A /* ZooGameUITestsLaunchTests.swift */; };
+		011F9E8F296867AE0019214A /* CircuitSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F9E8E296867AE0019214A /* CircuitSelectionScreen.swift */; };
+		01A050802974051200919B37 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 01A0507F2974051200919B37 /* Experience.rcproject */; };
+		01A71556296C728B00805F5E /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 01A71555296C728B00805F5E /* AlertToast */; };
+		01A71559296C751C00805F5E /* AlertX in Frameworks */ = {isa = PBXBuildFile; productRef = 01A71558296C751C00805F5E /* AlertX */; };
+		01A7155B296C7A2D00805F5E /* CheckInAnimalAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A7155A296C7A2D00805F5E /* CheckInAnimalAlertView.swift */; };
+		01A7155D296C913F00805F5E /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A7155C296C913F00805F5E /* DetailHeaderView.swift */; };
+		01A8914D2971974E006FC446 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 01A8914C2971974E006FC446 /* PopupView */; };
+		01A891512971A837006FC446 /* PopupTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A891502971A837006FC446 /* PopupTopView.swift */; };
+		01A891582971BB4E006FC446 /* QuizInitailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A891572971BB4E006FC446 /* QuizInitailView.swift */; };
+		01A90CE9296ABC4C00E3D7ED /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A90CE8296ABC4C00E3D7ED /* DetailScreenView.swift */; };
+		01A90CEB296AC72E00E3D7ED /* DetailScreenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A90CEA296AC72E00E3D7ED /* DetailScreenListView.swift */; };
+		01B6424E2969A96200E8097D /* RowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6424D2969A96200E8097D /* RowComponent.swift */; };
+		01B642512969B28300E8097D /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B642502969B28300E8097D /* MapScreenView.swift */; };
+		01B642552969B7F200E8097D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B642542969B7F200E8097D /* LocationManager.swift */; };
+		01B6425A2969D95700E8097D /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B642592969D95700E8097D /* AnimalListView.swift */; };
+		01B6425C2969E2AD00E8097D /* MapScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6425B2969E2AD00E8097D /* MapScreenViewModel.swift */; };
+		01C52D1C2973FCD500F1B100 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C52D1B2973FCD500F1B100 /* ARView.swift */; };
+		01CA9A6229698214005097BA /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA9A6129698214005097BA /* Animal.swift */; };
+		01CA9A6529698394005097BA /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA9A6429698394005097BA /* ApiManager.swift */; };
+		01CA9A6729698643005097BA /* CircuitSelectionScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA9A6629698643005097BA /* CircuitSelectionScreenViewModel.swift */; };
+		01CA9A69296986D0005097BA /* AnimalMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 01CA9A68296986D0005097BA /* AnimalMock.json */; };
+		01D6ED282972B6D2008A8792 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED272972B6D2008A8792 /* PrimaryButton.swift */; };
+		01D6ED2B2972B8DB008A8792 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED2A2972B8DB008A8792 /* Extensions.swift */; };
+		01D6ED2D2972BBA3008A8792 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED2C2972BBA3008A8792 /* QuestionsView.swift */; };
+		01D6ED2F2972BC9C008A8792 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED2E2972BC9C008A8792 /* ProgressBar.swift */; };
+		01D6ED312972BE54008A8792 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED302972BE54008A8792 /* Answer.swift */; };
+		01D6ED332972BEAF008A8792 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED322972BEAF008A8792 /* AnswerRow.swift */; };
+		01D6ED352972C648008A8792 /* QuizScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED342972C648008A8792 /* QuizScreenView.swift */; };
+		01D6ED372972C896008A8792 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED362972C896008A8792 /* QuizManager.swift */; };
+		01D6ED3A2972F22B008A8792 /* ConcentricOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 01D6ED392972F22B008A8792 /* ConcentricOnboarding */; };
+		01D6ED43297327BF008A8792 /* OnboardMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED42297327BF008A8792 /* OnboardMock.swift */; };
+		01D6ED4829732ADF008A8792 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6ED4729732ADF008A8792 /* PageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011F9E722968673C0019214A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011F9E592968673B0019214A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011F9E602968673B0019214A;
+			remoteInfo = ZooGame;
+		};
+		011F9E7C2968673C0019214A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011F9E592968673B0019214A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011F9E602968673B0019214A;
+			remoteInfo = ZooGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011F9E612968673B0019214A /* ZooGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011F9E642968673B0019214A /* ZooGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooGameApp.swift; sourceTree = "<group>"; };
+		011F9E682968673C0019214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011F9E6B2968673C0019214A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		011F9E712968673C0019214A /* ZooGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011F9E752968673C0019214A /* ZooGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooGameTests.swift; sourceTree = "<group>"; };
+		011F9E7B2968673C0019214A /* ZooGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		011F9E7F2968673C0019214A /* ZooGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooGameUITests.swift; sourceTree = "<group>"; };
+		011F9E812968673C0019214A /* ZooGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		011F9E8E296867AE0019214A /* CircuitSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitSelectionScreen.swift; sourceTree = "<group>"; };
+		01A0507F2974051200919B37 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		01A7155A296C7A2D00805F5E /* CheckInAnimalAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInAnimalAlertView.swift; sourceTree = "<group>"; };
+		01A7155C296C913F00805F5E /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		01A891502971A837006FC446 /* PopupTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupTopView.swift; sourceTree = "<group>"; };
+		01A891572971BB4E006FC446 /* QuizInitailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizInitailView.swift; sourceTree = "<group>"; };
+		01A90CE8296ABC4C00E3D7ED /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		01A90CEA296AC72E00E3D7ED /* DetailScreenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenListView.swift; sourceTree = "<group>"; };
+		01B6424D2969A96200E8097D /* RowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowComponent.swift; sourceTree = "<group>"; };
+		01B642502969B28300E8097D /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
+		01B642542969B7F200E8097D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		01B642592969D95700E8097D /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		01B6425B2969E2AD00E8097D /* MapScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreenViewModel.swift; sourceTree = "<group>"; };
+		01C1090929742C6900247ACF /* InsidePath.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = InsidePath.gpx; sourceTree = "<group>"; };
+		01C52D1B2973FCD500F1B100 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		01CA9A6129698214005097BA /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		01CA9A6429698394005097BA /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		01CA9A6629698643005097BA /* CircuitSelectionScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitSelectionScreenViewModel.swift; sourceTree = "<group>"; };
+		01CA9A68296986D0005097BA /* AnimalMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AnimalMock.json; sourceTree = "<group>"; };
+		01D6ED272972B6D2008A8792 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		01D6ED2A2972B8DB008A8792 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		01D6ED2C2972BBA3008A8792 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		01D6ED2E2972BC9C008A8792 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		01D6ED302972BE54008A8792 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		01D6ED322972BEAF008A8792 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		01D6ED342972C648008A8792 /* QuizScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizScreenView.swift; sourceTree = "<group>"; };
+		01D6ED362972C896008A8792 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		01D6ED42297327BF008A8792 /* OnboardMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardMock.swift; sourceTree = "<group>"; };
+		01D6ED4729732ADF008A8792 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		01DC68372969F23E00F512C5 /* ZooPath.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZooPath.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011F9E5E2968673B0019214A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0108AAF7296D885500CD833D /* SlideOverCard in Frameworks */,
+				01A71559296C751C00805F5E /* AlertX in Frameworks */,
+				01A8914D2971974E006FC446 /* PopupView in Frameworks */,
+				01D6ED3A2972F22B008A8792 /* ConcentricOnboarding in Frameworks */,
+				01A71556296C728B00805F5E /* AlertToast in Frameworks */,
+				0108AAF4296D7B7100CD833D /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011F9E6E2968673C0019214A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011F9E782968673C0019214A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011F9E582968673B0019214A = {
+			isa = PBXGroup;
+			children = (
+				011F9E632968673B0019214A /* ZooGame */,
+				011F9E742968673C0019214A /* ZooGameTests */,
+				011F9E7E2968673C0019214A /* ZooGameUITests */,
+				011F9E622968673B0019214A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011F9E622968673B0019214A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011F9E612968673B0019214A /* ZooGame.app */,
+				011F9E712968673C0019214A /* ZooGameTests.xctest */,
+				011F9E7B2968673C0019214A /* ZooGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011F9E632968673B0019214A /* ZooGame */ = {
+			isa = PBXGroup;
+			children = (
+				01C52D1A2973FCC500F1B100 /* AR */,
+				01D6ED292972B8CA008A8792 /* Extensions */,
+				01D6ED262972B6B2008A8792 /* Components */,
+				01B6424F2969B0A200E8097D /* Views */,
+				01CA9A6329698388005097BA /* Utils */,
+				01CA9A60296981F3005097BA /* Model */,
+				011F9E642968673B0019214A /* ZooGameApp.swift */,
+				011F9E682968673C0019214A /* Assets.xcassets */,
+				011F9E6A2968673C0019214A /* Preview Content */,
+			);
+			path = ZooGame;
+			sourceTree = "<group>";
+		};
+		011F9E6A2968673C0019214A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				011F9E6B2968673C0019214A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		011F9E742968673C0019214A /* ZooGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				011F9E752968673C0019214A /* ZooGameTests.swift */,
+			);
+			path = ZooGameTests;
+			sourceTree = "<group>";
+		};
+		011F9E7E2968673C0019214A /* ZooGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				011F9E7F2968673C0019214A /* ZooGameUITests.swift */,
+				011F9E812968673C0019214A /* ZooGameUITestsLaunchTests.swift */,
+			);
+			path = ZooGameUITests;
+			sourceTree = "<group>";
+		};
+		01A891522971B31D006FC446 /* Circuit */ = {
+			isa = PBXGroup;
+			children = (
+				011F9E8E296867AE0019214A /* CircuitSelectionScreen.swift */,
+				01CA9A6629698643005097BA /* CircuitSelectionScreenViewModel.swift */,
+			);
+			path = Circuit;
+			sourceTree = "<group>";
+		};
+		01A891532971B335006FC446 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				01A90CE8296ABC4C00E3D7ED /* DetailScreenView.swift */,
+				01A90CEA296AC72E00E3D7ED /* DetailScreenListView.swift */,
+				01A7155C296C913F00805F5E /* DetailHeaderView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		01A891542971B350006FC446 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				01B6424D2969A96200E8097D /* RowComponent.swift */,
+				01B642592969D95700E8097D /* AnimalListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		01A891552971B36F006FC446 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				01B6425B2969E2AD00E8097D /* MapScreenViewModel.swift */,
+				01B642502969B28300E8097D /* MapScreenView.swift */,
+				01A7155A296C7A2D00805F5E /* CheckInAnimalAlertView.swift */,
+				01A891502971A837006FC446 /* PopupTopView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		01A891562971BB3D006FC446 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				01A891572971BB4E006FC446 /* QuizInitailView.swift */,
+				01D6ED2C2972BBA3008A8792 /* QuestionsView.swift */,
+				01D6ED342972C648008A8792 /* QuizScreenView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		01B6424F2969B0A200E8097D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01D6ED3B2973256B008A8792 /* Onboarding */,
+				01A891562971BB3D006FC446 /* Quiz */,
+				01A891552971B36F006FC446 /* Map */,
+				01A891542971B350006FC446 /* List */,
+				01A891532971B335006FC446 /* Detail */,
+				01A891522971B31D006FC446 /* Circuit */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01C52D1A2973FCC500F1B100 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				01A0507F2974051200919B37 /* Experience.rcproject */,
+				01C52D1B2973FCD500F1B100 /* ARView.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		01CA9A60296981F3005097BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01CA9A6129698214005097BA /* Animal.swift */,
+				01D6ED302972BE54008A8792 /* Answer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01CA9A6329698388005097BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01CA9A6429698394005097BA /* ApiManager.swift */,
+				01B642542969B7F200E8097D /* LocationManager.swift */,
+				01CA9A68296986D0005097BA /* AnimalMock.json */,
+				01DC68372969F23E00F512C5 /* ZooPath.gpx */,
+				01D6ED362972C896008A8792 /* QuizManager.swift */,
+				01C1090929742C6900247ACF /* InsidePath.gpx */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01D6ED262972B6B2008A8792 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				01D6ED272972B6D2008A8792 /* PrimaryButton.swift */,
+				01D6ED2E2972BC9C008A8792 /* ProgressBar.swift */,
+				01D6ED322972BEAF008A8792 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		01D6ED292972B8CA008A8792 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01D6ED2A2972B8DB008A8792 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		01D6ED3B2973256B008A8792 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				01D6ED42297327BF008A8792 /* OnboardMock.swift */,
+				01D6ED4729732ADF008A8792 /* PageView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011F9E602968673B0019214A /* ZooGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011F9E852968673C0019214A /* Build configuration list for PBXNativeTarget "ZooGame" */;
+			buildPhases = (
+				011F9E5D2968673B0019214A /* Sources */,
+				011F9E5E2968673B0019214A /* Frameworks */,
+				011F9E5F2968673B0019214A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooGame;
+			packageProductDependencies = (
+				01A71555296C728B00805F5E /* AlertToast */,
+				01A71558296C751C00805F5E /* AlertX */,
+				0108AAF3296D7B7100CD833D /* CodeScanner */,
+				0108AAF6296D885500CD833D /* SlideOverCard */,
+				01A8914C2971974E006FC446 /* PopupView */,
+				01D6ED392972F22B008A8792 /* ConcentricOnboarding */,
+			);
+			productName = ZooGame;
+			productReference = 011F9E612968673B0019214A /* ZooGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011F9E702968673C0019214A /* ZooGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011F9E882968673C0019214A /* Build configuration list for PBXNativeTarget "ZooGameTests" */;
+			buildPhases = (
+				011F9E6D2968673C0019214A /* Sources */,
+				011F9E6E2968673C0019214A /* Frameworks */,
+				011F9E6F2968673C0019214A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011F9E732968673C0019214A /* PBXTargetDependency */,
+			);
+			name = ZooGameTests;
+			productName = ZooGameTests;
+			productReference = 011F9E712968673C0019214A /* ZooGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		011F9E7A2968673C0019214A /* ZooGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011F9E8B2968673C0019214A /* Build configuration list for PBXNativeTarget "ZooGameUITests" */;
+			buildPhases = (
+				011F9E772968673C0019214A /* Sources */,
+				011F9E782968673C0019214A /* Frameworks */,
+				011F9E792968673C0019214A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011F9E7D2968673C0019214A /* PBXTargetDependency */,
+			);
+			name = ZooGameUITests;
+			productName = ZooGameUITests;
+			productReference = 011F9E7B2968673C0019214A /* ZooGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011F9E592968673B0019214A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					011F9E602968673B0019214A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					011F9E702968673C0019214A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 011F9E602968673B0019214A;
+					};
+					011F9E7A2968673C0019214A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 011F9E602968673B0019214A;
+					};
+				};
+			};
+			buildConfigurationList = 011F9E5C2968673B0019214A /* Build configuration list for PBXProject "ZooGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 011F9E582968673B0019214A;
+			packageReferences = (
+				01A71554296C728B00805F5E /* XCRemoteSwiftPackageReference "AlertToast" */,
+				01A71557296C751C00805F5E /* XCRemoteSwiftPackageReference "AlertX" */,
+				0108AAF2296D7B7000CD833D /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				0108AAF5296D885500CD833D /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+				01A8914B2971974E006FC446 /* XCRemoteSwiftPackageReference "PopupView" */,
+				01D6ED382972F22B008A8792 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
+			);
+			productRefGroup = 011F9E622968673B0019214A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011F9E602968673B0019214A /* ZooGame */,
+				011F9E702968673C0019214A /* ZooGameTests */,
+				011F9E7A2968673C0019214A /* ZooGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011F9E5F2968673B0019214A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F9E6C2968673C0019214A /* Preview Assets.xcassets in Resources */,
+				011F9E692968673C0019214A /* Assets.xcassets in Resources */,
+				01CA9A69296986D0005097BA /* AnimalMock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011F9E6F2968673C0019214A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011F9E792968673C0019214A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011F9E5D2968673B0019214A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D6ED332972BEAF008A8792 /* AnswerRow.swift in Sources */,
+				01D6ED282972B6D2008A8792 /* PrimaryButton.swift in Sources */,
+				011F9E8F296867AE0019214A /* CircuitSelectionScreen.swift in Sources */,
+				01D6ED352972C648008A8792 /* QuizScreenView.swift in Sources */,
+				01B6425C2969E2AD00E8097D /* MapScreenViewModel.swift in Sources */,
+				01B6425A2969D95700E8097D /* AnimalListView.swift in Sources */,
+				01CA9A6729698643005097BA /* CircuitSelectionScreenViewModel.swift in Sources */,
+				01D6ED372972C896008A8792 /* QuizManager.swift in Sources */,
+				01D6ED312972BE54008A8792 /* Answer.swift in Sources */,
+				01A90CE9296ABC4C00E3D7ED /* DetailScreenView.swift in Sources */,
+				01C52D1C2973FCD500F1B100 /* ARView.swift in Sources */,
+				01B642552969B7F200E8097D /* LocationManager.swift in Sources */,
+				01D6ED2B2972B8DB008A8792 /* Extensions.swift in Sources */,
+				01D6ED2D2972BBA3008A8792 /* QuestionsView.swift in Sources */,
+				01CA9A6229698214005097BA /* Animal.swift in Sources */,
+				01A7155B296C7A2D00805F5E /* CheckInAnimalAlertView.swift in Sources */,
+				01A7155D296C913F00805F5E /* DetailHeaderView.swift in Sources */,
+				01A891582971BB4E006FC446 /* QuizInitailView.swift in Sources */,
+				01D6ED2F2972BC9C008A8792 /* ProgressBar.swift in Sources */,
+				01CA9A6529698394005097BA /* ApiManager.swift in Sources */,
+				01A891512971A837006FC446 /* PopupTopView.swift in Sources */,
+				011F9E652968673B0019214A /* ZooGameApp.swift in Sources */,
+				01D6ED4829732ADF008A8792 /* PageView.swift in Sources */,
+				01D6ED43297327BF008A8792 /* OnboardMock.swift in Sources */,
+				01A90CEB296AC72E00E3D7ED /* DetailScreenListView.swift in Sources */,
+				01B6424E2969A96200E8097D /* RowComponent.swift in Sources */,
+				01A050802974051200919B37 /* Experience.rcproject in Sources */,
+				01B642512969B28300E8097D /* MapScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011F9E6D2968673C0019214A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F9E762968673C0019214A /* ZooGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011F9E772968673C0019214A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F9E802968673C0019214A /* ZooGameUITests.swift in Sources */,
+				011F9E822968673C0019214A /* ZooGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011F9E732968673C0019214A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011F9E602968673B0019214A /* ZooGame */;
+			targetProxy = 011F9E722968673C0019214A /* PBXContainerItemProxy */;
+		};
+		011F9E7D2968673C0019214A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011F9E602968673B0019214A /* ZooGame */;
+			targetProxy = 011F9E7C2968673C0019214A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		011F9E832968673C0019214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		011F9E842968673C0019214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011F9E862968673C0019214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZooGame/Preview Content\"";
+				DEVELOPMENT_TEAM = VG3PD7SQWM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"QR code scanning\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"User tracking\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mendelu.xstast12.ZooGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011F9E872968673C0019214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZooGame/Preview Content\"";
+				DEVELOPMENT_TEAM = VG3PD7SQWM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"QR code scanning\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"User tracking\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mendelu.xstast12.ZooGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		011F9E892968673C0019214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG3PD7SQWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mendelu.xstast12.ZooGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZooGame";
+			};
+			name = Debug;
+		};
+		011F9E8A2968673C0019214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG3PD7SQWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mendelu.xstast12.ZooGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZooGame";
+			};
+			name = Release;
+		};
+		011F9E8C2968673C0019214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG3PD7SQWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mendelu.xstast12.ZooGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZooGame;
+			};
+			name = Debug;
+		};
+		011F9E8D2968673C0019214A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG3PD7SQWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mendelu.xstast12.ZooGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZooGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011F9E5C2968673B0019214A /* Build configuration list for PBXProject "ZooGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F9E832968673C0019214A /* Debug */,
+				011F9E842968673C0019214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011F9E852968673C0019214A /* Build configuration list for PBXNativeTarget "ZooGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F9E862968673C0019214A /* Debug */,
+				011F9E872968673C0019214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011F9E882968673C0019214A /* Build configuration list for PBXNativeTarget "ZooGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F9E892968673C0019214A /* Debug */,
+				011F9E8A2968673C0019214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011F9E8B2968673C0019214A /* Build configuration list for PBXNativeTarget "ZooGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F9E8C2968673C0019214A /* Debug */,
+				011F9E8D2968673C0019214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0108AAF2296D7B7000CD833D /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		0108AAF5296D885500CD833D /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		01A71554296C728B00805F5E /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		01A71557296C751C00805F5E /* XCRemoteSwiftPackageReference "AlertX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neel-makhecha/AlertX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		01A8914B2971974E006FC446 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		01D6ED382972F22B008A8792 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ConcentricOnboarding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0108AAF3296D7B7100CD833D /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0108AAF2296D7B7000CD833D /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		0108AAF6296D885500CD833D /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0108AAF5296D885500CD833D /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
+		};
+		01A71555296C728B00805F5E /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01A71554296C728B00805F5E /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		01A71558296C751C00805F5E /* AlertX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01A71557296C751C00805F5E /* XCRemoteSwiftPackageReference "AlertX" */;
+			productName = AlertX;
+		};
+		01A8914C2971974E006FC446 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01A8914B2971974E006FC446 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+		01D6ED392972F22B008A8792 /* ConcentricOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01D6ED382972F22B008A8792 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
+			productName = ConcentricOnboarding;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 011F9E592968673B0019214A /* Project object */;
+}
